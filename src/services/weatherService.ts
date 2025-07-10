@@ -1,8 +1,8 @@
 import { WeatherData, HourlyForecast, DailyForecast, CitySearchResult, WeatherApiResponse } from '../types/weather';
 
-const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
-const BASE_URL = import.meta.env.VITE_WEATHER_API_BASE_URL;
-const GEOCODING_URL = import.meta.env.VITE_GEOCODING_API_BASE_URL;
+const API_KEY = import.meta.env.WEATHER_API_KEY;
+const BASE_URL = import.meta.env.WEATHER_API_BASE_URL;
+const GEOCODING_URL = import.meta.env.GEOCODING_API_BASE_URL;
 
 // Debug environment variables
 console.log('Environment check:');
